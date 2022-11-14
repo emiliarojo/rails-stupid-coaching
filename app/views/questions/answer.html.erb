@@ -1,0 +1,14 @@
+<h1 class = "text-start py-3 display-4 m-3">Stupid Coaching</h1>
+<div class = "callout p-3 m-3">
+  <%= @question.capitalize %>
+  <p><em>- You</em></p>
+</div>
+
+<div class = "callout-warning p-3 m-3">
+  <b><%= @answer.capitalize %></b>
+  <p><em>- Your Coach</em></p>
+</div>
+
+<div class = "p-3 my-3">
+  <%= link_to "Ask a new question", ask_path %>
+</div>

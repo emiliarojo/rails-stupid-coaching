@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .callout {
+  font-size: x-large;
+  margin-bottom: 15px;
+  border-left-color:gray;
+  border-left: solid 6px;
+  border-left-color: rgba(128, 128, 128, 0.355);
+ }
+
+ .callout-warning {
+  font-size: x-large;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 0, 0.202);
+  border-left: solid 6px;
+  border-left-color: rgba(128, 128, 128, 0.355);
+ }
